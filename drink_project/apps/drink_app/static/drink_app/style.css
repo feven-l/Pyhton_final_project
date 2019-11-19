@@ -1,18 +1,40 @@
-/* *{
+
+/* WELCOME & SEARCH BAR */
+.navbar{
     outline: 1px solid black;
-} */
-.side_bar{
-    margin-top: 7px;
-    width: 20%;
-    height: 600px;
-    outline: 1px solid black;
-    display: inline-block;
-    vertical-align: top;
+    width: 85%;
+    margin-left: 200px;
 }
+
+/* SIDE NAVIGATION BAR */
+.side_nav {
+    height: 100%; /* 100% Full-height */
+    width: 15%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(27, 0, 0); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.side_nav a:hover {
+    color: #f1f1f1;
+}
+/* MAIN CONTENT */
 .maincont{
     width: 65%;
     height: 600px;
-    margin-left: 10px;
+    margin-left: 350px;
     margin-top: 7px;
-
+    outline: 1px solid black;
 }
