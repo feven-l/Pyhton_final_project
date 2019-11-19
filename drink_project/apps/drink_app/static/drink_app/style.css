@@ -16,3 +16,21 @@
     margin-top: 7px;
 
 }
+.drinks{
+    display: inline-block;
+    width: 43%;
+    height: 600px;
+    outline: 1px solid black;
+    vertical-align: top;
+}
+.recipes{
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+}
+.L{
+    height: 300px;
+}
+.B{
+    height: 300px;
+}
