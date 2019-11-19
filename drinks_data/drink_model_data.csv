@@ -1,31 +1,31 @@
-id,name,glassType,instructions
-0,Alabama Slammer,highball glass,"Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve."
-1,Amaretto Sunrise,collins glass,Mix together the amaretto and orange juice. Pour into glass and then add the grenadine untill you see the sunrise.
-2,Applejack,cocktail glass,"Add all ingredients into mixing glass, chill and strain into cocktail glass"
-3,B-52,shot glass,Layer ingredients into a shot glass. Serve with a stirrer.
-4,Banana Daiquiri,champagne flute,Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.
-5,Black & Tan,pint glass,Fill pint glass half full with Bass. Next pour Guiness over a spoon slowly until glass is full. If done correctly the Guiness will stay on top and the Bass on bottom hence the name Black & Tan.
-6,Bloody Mary,old-fashioned glass,"Stirring gently, pour all ingredients into highball glass. Garnish."
-7,Brandy Alexander,cocktail glass,Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.
-8,Cuba Libre,highball glass,Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.
-9,Daiquiri,cocktail glass,Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.
-10,Dirty Martini,cocktail glass,"Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.
+[
+"{""pk"":",0,Alabama Slammer,highball glass,"Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve."
+"{""pk"":",1,Amaretto Sunrise,collins glass,Mix together the amaretto and orange juice. Pour into glass and then add the grenadine untill you see the sunrise.
+"{""pk"":",2,Applejack,cocktail glass,"Add all ingredients into mixing glass, chill and strain into cocktail glass"
+"{""pk"":",3,B-52,shot glass,Layer ingredients into a shot glass. Serve with a stirrer.
+"{""pk"":",4,Banana Daiquiri,champagne flute,Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.
+"{""pk"":",5,Black & Tan,pint glass,Fill pint glass half full with Bass. Next pour Guiness over a spoon slowly until glass is full. If done correctly the Guiness will stay on top and the Bass on bottom hence the name Black & Tan.
+"{""pk"":",6,Bloody Mary,old-fashioned glass,"Stirring gently, pour all ingredients into highball glass. Garnish."
+"{""pk"":",7,Brandy Alexander,cocktail glass,Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.
+"{""pk"":",8,Cuba Libre,highball glass,Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.
+"{""pk"":",9,Daiquiri,cocktail glass,Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.
+"{""pk"":",10,Dirty Martini,cocktail glass,"Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.
 Rub the rim of a martini glass with the wedge of lemon.
 Strain the contents of the cocktail shaker into the glass and add the olive.
 A dirty Martini contains a splash of olive brine or olive juice and is typically garnished with an olive."
-11,French 75,collins glass,"Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently."
-12,Gin And Tonic,highball glass,Pour the gin and the tonic water into a highball glass almost filled with ice cubes. Stir well. Garnish with the lime wedge.
-13,Grasshopper,cocktail glass,Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass.
-14,Harvey Wallbanger,collins glass,"Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve."
-15,Lemon Drop,cocktail glass,Shake and strain into a chilled cocktail glass rimmed with sugar.
-16,Mai Tai,collins glass,Shake all ingredients with ice. Strain into glass. Garnish and serve with straw.
-17,Manhattan,cocktail glass,"Stirred over ice, strained into a chilled glass, garnished, and served up."
-18,Margarita,cocktail glass,"Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass."
-19,Mimosa,champagne flute,"Ensure both ingredients are well chilled, then mix into the glass. Serve cold."
-20,Mojito,highball glass,Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.
-21,Moscow Mule,copper mug,Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish.
-22,Pina Colada,collins glass,"Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve."
-23,Pisco Sour,cocktail glass,"Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters."
-24,Sidecar,cocktail glass,Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.
-25,Tequila Sunrise,highball glass,"Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve."
-26,Tom Collins,collins glass,"In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice."
+"{""pk"":",11,French 75,collins glass,"Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently."
+"{""pk"":",12,Gin And Tonic,highball glass,Pour the gin and the tonic water into a highball glass almost filled with ice cubes. Stir well. Garnish with the lime wedge.
+"{""pk"":",13,Grasshopper,cocktail glass,Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass.
+"{""pk"":",14,Harvey Wallbanger,collins glass,"Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve."
+"{""pk"":",15,Lemon Drop,cocktail glass,Shake and strain into a chilled cocktail glass rimmed with sugar.
+"{""pk"":",16,Mai Tai,collins glass,Shake all ingredients with ice. Strain into glass. Garnish and serve with straw.
+"{""pk"":",17,Manhattan,cocktail glass,"Stirred over ice, strained into a chilled glass, garnished, and served up."
+"{""pk"":",18,Margarita,cocktail glass,"Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass."
+"{""pk"":",19,Mimosa,champagne flute,"Ensure both ingredients are well chilled, then mix into the glass. Serve cold."
+"{""pk"":",20,Mojito,highball glass,Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.
+"{""pk"":",21,Moscow Mule,copper mug,Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish.
+"{""pk"":",22,Pina Colada,collins glass,"Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve."
+"{""pk"":",23,Pisco Sour,cocktail glass,"Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters."
+"{""pk"":",24,Sidecar,cocktail glass,Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.
+"{""pk"":",25,Tequila Sunrise,highball glass,"Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve."
+"{""pk"":",26,Tom Collins,collins glass,"In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice."
