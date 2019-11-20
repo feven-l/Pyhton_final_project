@@ -21,12 +21,19 @@
     <div class="drinks">
             <h1>DRINKS</h1>
             <div>
-                    <img class="example" src="{% static 'drink_app/images/example_images.jpeg' %}" alt="First slide">
+                    {% for drink in drinks %}
+                    <!-- <img class="example" src="{% static 'drink_app/images/example_images.jpeg' %}" alt="First slide"> -->
+                        {{drink.name}}
+                    {% endfor %}
             </div>
     </div>
     <div class="recipes">
         <div class="L">
             <h4>recipes</h4>
+            {% for drink in drinks %}
+            <!-- <img class="example" src="{% static 'drink_app/images/example_images.jpeg' %}" alt="First slide"> -->
+                {{drink.ing}}
+            {% endfor %}
         </div>
         <div class="B">
             <h4>bottom</h4> 
