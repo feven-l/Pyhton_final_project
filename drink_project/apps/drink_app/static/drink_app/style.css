@@ -22,7 +22,6 @@ body{
     top: 0; /* Stay at the top */
     left: 0;
     background-color: rgba(35, 33, 34, 0.5);
-    /* background-image:url('https://www.dbgb.com/content/slides/Libations.jpg'); */
     background-size: cover;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 110px; /* Place content 60px from the top */
@@ -48,9 +47,6 @@ body{
     height: 550px;
     margin-left: 350px;
     margin-top: 50px;
-      /* border-right: 1px solid #818181;
-    border-bottom: 1px solid #818181;   */
-    /* outline: 1px solid black; */
 }
 img{
     background-size: cover;
@@ -60,4 +56,24 @@ img{
     margin: auto;
     -webkit-filter: drop-shadow(10px 10px 10px #222);
     filter: drop-shadow(5px 5px 5px #222);
+    margin-top: 7px;
+}
+.drinks{
+    display: inline-block;
+    width: 43%;
+    height: 600px;
+    outline: 1px solid black;
+    vertical-align: top;
+}
+.recipes{
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+}
+.L{
+    height: 300px;
+}
+.B{
+    height: 300px;
+    outline: 1px solid black;
 }

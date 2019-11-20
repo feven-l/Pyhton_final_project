@@ -4,9 +4,9 @@ from django.contrib import messages
 import bcrypt
 
 
-def index(request):
+def login(request):
     if 'userid' in request.session:
-        return redirect('/dashboard')
+        return redirect('/')
     return render(request, 'login_app/login.html')
 
 def register(request):

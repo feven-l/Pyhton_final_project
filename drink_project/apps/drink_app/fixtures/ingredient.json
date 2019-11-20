@@ -1,0 +1,367 @@
+[{
+    "model": "drink_app.ing",
+    "pk": 1,
+    "fields": {
+        "name": "Southern Comfort"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 2,
+    "fields": {
+        "name": "Amaretto"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 3,
+    "fields": {
+        "name": "Sloe gin"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 4,
+    "fields": {
+        "name": "Lemon juice"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 5,
+    "fields": {
+        "name": "Orange juice"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 6,
+    "fields": {
+        "name": "Grenadine"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 7,
+    "fields": {
+        "name": "Jack Daniels"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 8,
+    "fields": {
+        "name": "Midori melon liqueur"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 9,
+    "fields": {
+        "name": "Sour mix"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 10,
+    "fields": {
+        "name": "Bailey's irish cream"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 11,
+    "fields": {
+        "name": "Grand Marnier"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 12,
+    "fields": {
+        "name": "Kahlua"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 13,
+    "fields": {
+        "name": "Light rum"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 14,
+    "fields": {
+        "name": "Triple sec"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 15,
+    "fields": {
+        "name": "Banana"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 16,
+    "fields": {
+        "name": "Lime juice"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 17,
+    "fields": {
+        "name": "Sugar"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 18,
+    "fields": {
+        "name": "Cherry"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 19,
+    "fields": {
+        "name": "Ale"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 20,
+    "fields": {
+        "name": "Guinness stout"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 21,
+    "fields": {
+        "name": "Vodka"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 22,
+    "fields": {
+        "name": "Tomato juice"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 23,
+    "fields": {
+        "name": "Worcestershire sauce"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 24,
+    "fields": {
+        "name": "Tabasco sauce"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 25,
+    "fields": {
+        "name": "Lime"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 26,
+    "fields": {
+        "name": "Brandy"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 27,
+    "fields": {
+        "name": "Creme de Cacao"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 28,
+    "fields": {
+        "name": "Light cream"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 29,
+    "fields": {
+        "name": "Nutmeg"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 30,
+    "fields": {
+        "name": "Coca-Cola"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 31,
+    "fields": {
+        "name": "Powdered sugar"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 32,
+    "fields": {
+        "name": "Dry Vermouth"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 33,
+    "fields": {
+        "name": "Olive Brine"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 34,
+    "fields": {
+        "name": "Lemon"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 35,
+    "fields": {
+        "name": "Olive"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 36,
+    "fields": {
+        "name": "Gin"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 37,
+    "fields": {
+        "name": "Champagne"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 38,
+    "fields": {
+        "name": "Orange"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 39,
+    "fields": {
+        "name": "Maraschino cherry"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 40,
+    "fields": {
+        "name": "Tonic water"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 41,
+    "fields": {
+        "name": "Green Creme de Menthe"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 42,
+    "fields": {
+        "name": "Galliano"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 43,
+    "fields": {
+        "name": "Absolut Vodka"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 44,
+    "fields": {
+        "name": "Cointreau"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 45,
+    "fields": {
+        "name": "Orgeat syrup"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 46,
+    "fields": {
+        "name": "Sweet and sour"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 47,
+    "fields": {
+        "name": "Sweet Vermouth"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 48,
+    "fields": {
+        "name": "Bourbon"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 49,
+    "fields": {
+        "name": "Angostura bitters"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 50,
+    "fields": {
+        "name": "Ice"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 51,
+    "fields": {
+        "name": "Orange peel"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 52,
+    "fields": {
+        "name": "Tequila"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 53,
+    "fields": {
+        "name": "Salt"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 54,
+    "fields": {
+        "name": "Mint"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 55,
+    "fields": {
+        "name": "Soda water"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 56,
+    "fields": {
+        "name": "Ginger ale"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 57,
+    "fields": {
+        "name": "Coconut milk"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 58,
+    "fields": {
+        "name": "Pineapple"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 59,
+    "fields": {
+        "name": "Pisco"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 60,
+    "fields": {
+        "name": "Cognac"
+    }
+}, {
+    "model": "drink_app.ing",
+    "pk": 61,
+    "fields": {
+        "name": "Club soda"
+    }
+}]

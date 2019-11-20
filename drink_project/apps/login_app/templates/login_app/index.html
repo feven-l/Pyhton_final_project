@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Login & Registration</title>
 </head>
-<body style=" background: url('static/img/aerial_view.jpg')" class="p-3 mb-2 bg-light">
-    <div style='margin: 0px auto; width: 1000px; background: rgba(246, 243, 243, 0.6)' class="container p-3 mb-5 rounded">
-            <h1 class='text-center mb-5'>Welcome! Let's travel!</h1>  
+<body style=" background: url('static/img/log.jpg');background-repeat: no-repeat ; background-size: 100%;" class="p-3 mb-2 bg-light">
+    <div style='margin: 0px 250px 0px 0px; width: 800px;' class="container p-2 mb-5">
+            <h1 style="color: whitesmoke" class='text-center pb-4'>Get the full experience</h1>  
             {% if messages %}
             <ul class="messages">    
                 {% for message in messages %}    
@@ -17,7 +17,7 @@
                 {% endfor %}
             </ul>
             {% endif %}
-        <div class="register col-md-5 m-auto">
+        <div style="color: whitesmoke" class="register col-md-5 m-auto">
             <h3 class="mb-3">Register</h3>
             <form action="/reg_process" method="post">
                 {% csrf_token %}
@@ -33,9 +33,10 @@
                 <input class="form-control" type="password" name="password">
                 <label for="confirm_pw">Confirm Password</label>
                 <input class="form-control" type="password" name="confirm_pw">
-                <button class="btn btn-dark btn-sm mt-3 mb-3" type="submit">Register</button>
+                <button class="btn btn-success btn-block mt-3 mb-3" type="submit">Register</button>
             </form>     
-            <a class='text-dark' href="{% url 'login' %}"> Or Login</a>
+            <a class='text-light mr-4' href="{% url 'login' %}">Login   </a>
+            <a class='text-light' href="{% url 'main' %}"> Home</a>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
