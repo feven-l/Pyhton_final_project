@@ -1,11 +1,18 @@
 
 /* WELCOME & SEARCH BAR */
 .navbar{
-    outline: 1px solid black;
-    width: 85%;
-    margin-left: 200px;
+    width: 87%;
+    margin-left: 197px;
+    color: whitesmoke;
 }
-
+.logo{
+    color: white;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url("../drink_app/images/blur.jpg");
+    background-size: contain;
+}
 /* SIDE NAVIGATION BAR */
 .side_nav {
     height: 100%; /* 100% Full-height */
@@ -14,16 +21,20 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(27, 0, 0); /* Black*/
+    background-color: rgba(35, 33, 34, 0.5);
+    background-size: cover;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 100px; /* Place content 60px from the top */
+    padding-top: 110px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+#sml-font{
+    font-size: 20px;
 }
 .side_nav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #a0a0a0;
     display: block;
     transition: 0.3s;
 }
@@ -32,31 +43,41 @@
 }
 /* MAIN CONTENT */
 .maincont{
-    width: 65%;
-    height: 600px;
+    width: 60%;
+    height: 550px;
     margin-left: 350px;
-    margin-top: 7px;
-<<<<<<< HEAD
-
+    margin-top: 50px;
 }
+img{
+    background-size: cover;
+    padding: 4px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    margin-top: 7px;
+}
+/* drinks img main content */
 .drinks{
     display: inline-block;
-    width: 43%;
+    width: 600px;
     height: 600px;
     outline: 1px solid black;
     vertical-align: top;
+    margin-left: 200px;
 }
 .recipes{
-    width: 30%;
+    width: 455px;
     height: 600px;
     display: inline-block;
 }
 .L{
-    height: 300px;
+    height: 50%;
+    width: 30%;
+    outline: 1px solid black;
 }
 .B{
     height: 300px;
-=======
     outline: 1px solid black;
->>>>>>> 5409f9e0f8737dacaa61879947c0a1a54b2b7bf5
 }
