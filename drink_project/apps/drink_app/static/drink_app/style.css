@@ -58,20 +58,24 @@ img{
     filter: drop-shadow(5px 5px 5px #222);
     margin-top: 7px;
 }
+/* drinks img main content */
 .drinks{
     display: inline-block;
-    width: 43%;
+    width: 600px;
     height: 600px;
     outline: 1px solid black;
     vertical-align: top;
+    margin-left: 200px;
 }
 .recipes{
-    width: 30%;
+    width: 455px;
     height: 600px;
     display: inline-block;
 }
 .L{
-    height: 300px;
+    height: 50%;
+    width: 30%;
+    outline: 1px solid black;
 }
 .B{
     height: 300px;
