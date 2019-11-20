@@ -1,0 +1,833 @@
+[{
+    "model": "testing_data.amount",
+    "pk": 1,
+    "fields": {
+        "drink": 1,
+        "ingredient": 1,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 2,
+    "fields": {
+        "drink": 1,
+        "ingredient": 2,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 3,
+    "fields": {
+        "drink": 1,
+        "ingredient": 3,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 4,
+    "fields": {
+        "drink": 1,
+        "ingredient": 4,
+        "amount": "1 dash "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 5,
+    "fields": {
+        "drink": 2,
+        "ingredient": 2,
+        "amount": "1 cl "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 6,
+    "fields": {
+        "drink": 2,
+        "ingredient": 5,
+        "amount": "4 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 7,
+    "fields": {
+        "drink": 2,
+        "ingredient": 6,
+        "amount": "1/4 cl "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 8,
+    "fields": {
+        "drink": 3,
+        "ingredient": 7,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 9,
+    "fields": {
+        "drink": 3,
+        "ingredient": 8,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 10,
+    "fields": {
+        "drink": 3,
+        "ingredient": 9,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 11,
+    "fields": {
+        "drink": 4,
+        "ingredient": 10,
+        "amount": "3-Jan"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 12,
+    "fields": {
+        "drink": 4,
+        "ingredient": 11,
+        "amount": "3-Jan"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 13,
+    "fields": {
+        "drink": 4,
+        "ingredient": 12,
+        "amount": "4-Jan"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 14,
+    "fields": {
+        "drink": 5,
+        "ingredient": 13,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 15,
+    "fields": {
+        "drink": 5,
+        "ingredient": 14,
+        "amount": "1 tblsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 16,
+    "fields": {
+        "drink": 5,
+        "ingredient": 15,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 17,
+    "fields": {
+        "drink": 5,
+        "ingredient": 16,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 18,
+    "fields": {
+        "drink": 5,
+        "ingredient": 17,
+        "amount": "1 tsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 19,
+    "fields": {
+        "drink": 5,
+        "ingredient": 18,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 20,
+    "fields": {
+        "drink": 6,
+        "ingredient": 19,
+        "amount": "1 part Bass pale "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 21,
+    "fields": {
+        "drink": 6,
+        "ingredient": 20,
+        "amount": "1 part "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 22,
+    "fields": {
+        "drink": 7,
+        "ingredient": 21,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 23,
+    "fields": {
+        "drink": 7,
+        "ingredient": 22,
+        "amount": "3 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 24,
+    "fields": {
+        "drink": 7,
+        "ingredient": 4,
+        "amount": "1 dash "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 25,
+    "fields": {
+        "drink": 7,
+        "ingredient": 23,
+        "amount": "1/2 tsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 26,
+    "fields": {
+        "drink": 7,
+        "ingredient": 24,
+        "amount": "2-3 drops "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 27,
+    "fields": {
+        "drink": 7,
+        "ingredient": 25,
+        "amount": "1 wedge "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 28,
+    "fields": {
+        "drink": 8,
+        "ingredient": 26,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 29,
+    "fields": {
+        "drink": 8,
+        "ingredient": 27,
+        "amount": "1 oz white "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 30,
+    "fields": {
+        "drink": 8,
+        "ingredient": 28,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 31,
+    "fields": {
+        "drink": 8,
+        "ingredient": 29,
+        "amount": "\n"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 32,
+    "fields": {
+        "drink": 9,
+        "ingredient": 13,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 33,
+    "fields": {
+        "drink": 9,
+        "ingredient": 25,
+        "amount": "Juice of 1/2 "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 34,
+    "fields": {
+        "drink": 9,
+        "ingredient": 30,
+        "amount": ""
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 35,
+    "fields": {
+        "drink": 10,
+        "ingredient": 13,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 36,
+    "fields": {
+        "drink": 10,
+        "ingredient": 25,
+        "amount": "Juice of 1/2 "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 37,
+    "fields": {
+        "drink": 10,
+        "ingredient": 31,
+        "amount": "1 tsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 38,
+    "fields": {
+        "drink": 11,
+        "ingredient": 21,
+        "amount": "70ml/2fl oz"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 39,
+    "fields": {
+        "drink": 11,
+        "ingredient": 32,
+        "amount": "1 tbsp"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 40,
+    "fields": {
+        "drink": 11,
+        "ingredient": 33,
+        "amount": "2 tbsp"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 41,
+    "fields": {
+        "drink": 11,
+        "ingredient": 34,
+        "amount": "1 wedge"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 42,
+    "fields": {
+        "drink": 11,
+        "ingredient": 35,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 43,
+    "fields": {
+        "drink": 12,
+        "ingredient": 36,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 44,
+    "fields": {
+        "drink": 12,
+        "ingredient": 17,
+        "amount": "2 tsp superfine "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 45,
+    "fields": {
+        "drink": 12,
+        "ingredient": 4,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 46,
+    "fields": {
+        "drink": 12,
+        "ingredient": 37,
+        "amount": "4 oz Chilled "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 47,
+    "fields": {
+        "drink": 12,
+        "ingredient": 38,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 48,
+    "fields": {
+        "drink": 12,
+        "ingredient": 39,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 49,
+    "fields": {
+        "drink": 13,
+        "ingredient": 36,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 50,
+    "fields": {
+        "drink": 13,
+        "ingredient": 40,
+        "amount": "5 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 51,
+    "fields": {
+        "drink": 13,
+        "ingredient": 25,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 52,
+    "fields": {
+        "drink": 14,
+        "ingredient": 41,
+        "amount": "3/4 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 53,
+    "fields": {
+        "drink": 14,
+        "ingredient": 27,
+        "amount": "3/4 oz white "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 54,
+    "fields": {
+        "drink": 14,
+        "ingredient": 28,
+        "amount": "3/4 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 55,
+    "fields": {
+        "drink": 15,
+        "ingredient": 21,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 56,
+    "fields": {
+        "drink": 15,
+        "ingredient": 42,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 57,
+    "fields": {
+        "drink": 15,
+        "ingredient": 5,
+        "amount": "4 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 58,
+    "fields": {
+        "drink": 16,
+        "ingredient": 43,
+        "amount": "1 1/2 shot "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 59,
+    "fields": {
+        "drink": 16,
+        "ingredient": 44,
+        "amount": "1 1/2 shot "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 60,
+    "fields": {
+        "drink": 16,
+        "ingredient": 34,
+        "amount": "Juice of 1 wedge "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 61,
+    "fields": {
+        "drink": 17,
+        "ingredient": 13,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 62,
+    "fields": {
+        "drink": 17,
+        "ingredient": 45,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 63,
+    "fields": {
+        "drink": 17,
+        "ingredient": 14,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 64,
+    "fields": {
+        "drink": 17,
+        "ingredient": 46,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 65,
+    "fields": {
+        "drink": 17,
+        "ingredient": 18,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 66,
+    "fields": {
+        "drink": 18,
+        "ingredient": 47,
+        "amount": "3/4 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 67,
+    "fields": {
+        "drink": 18,
+        "ingredient": 48,
+        "amount": "2 1/2 oz Blended "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 68,
+    "fields": {
+        "drink": 18,
+        "ingredient": 49,
+        "amount": "dash "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 69,
+    "fields": {
+        "drink": 18,
+        "ingredient": 50,
+        "amount": "2 or 3 "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 70,
+    "fields": {
+        "drink": 18,
+        "ingredient": 39,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 71,
+    "fields": {
+        "drink": 18,
+        "ingredient": 51,
+        "amount": "1 twist of "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 72,
+    "fields": {
+        "drink": 19,
+        "ingredient": 52,
+        "amount": "1 1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 73,
+    "fields": {
+        "drink": 19,
+        "ingredient": 14,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 74,
+    "fields": {
+        "drink": 19,
+        "ingredient": 16,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 75,
+    "fields": {
+        "drink": 19,
+        "ingredient": 53,
+        "amount": ""
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 76,
+    "fields": {
+        "drink": 20,
+        "ingredient": 37,
+        "amount": "Chilled "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 77,
+    "fields": {
+        "drink": 20,
+        "ingredient": 5,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 78,
+    "fields": {
+        "drink": 21,
+        "ingredient": 13,
+        "amount": "2-3 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 79,
+    "fields": {
+        "drink": 21,
+        "ingredient": 25,
+        "amount": "Juice of 1 "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 80,
+    "fields": {
+        "drink": 21,
+        "ingredient": 17,
+        "amount": "2 tsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 81,
+    "fields": {
+        "drink": 21,
+        "ingredient": 54,
+        "amount": "4-Feb"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 82,
+    "fields": {
+        "drink": 21,
+        "ingredient": 55,
+        "amount": ""
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 83,
+    "fields": {
+        "drink": 22,
+        "ingredient": 21,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 84,
+    "fields": {
+        "drink": 22,
+        "ingredient": 16,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 85,
+    "fields": {
+        "drink": 22,
+        "ingredient": 56,
+        "amount": "8 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 86,
+    "fields": {
+        "drink": 23,
+        "ingredient": 13,
+        "amount": "3 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 87,
+    "fields": {
+        "drink": 23,
+        "ingredient": 57,
+        "amount": "3 tblsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 88,
+    "fields": {
+        "drink": 23,
+        "ingredient": 58,
+        "amount": "3 tblsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 89,
+    "fields": {
+        "drink": 24,
+        "ingredient": 59,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 90,
+    "fields": {
+        "drink": 24,
+        "ingredient": 4,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 91,
+    "fields": {
+        "drink": 24,
+        "ingredient": 17,
+        "amount": "1-2 tblsp "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 92,
+    "fields": {
+        "drink": 24,
+        "ingredient": 50,
+        "amount": ""
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 93,
+    "fields": {
+        "drink": 25,
+        "ingredient": 60,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 94,
+    "fields": {
+        "drink": 25,
+        "ingredient": 44,
+        "amount": "1/2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 95,
+    "fields": {
+        "drink": 25,
+        "ingredient": 4,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 96,
+    "fields": {
+        "drink": 26,
+        "ingredient": 52,
+        "amount": "2 measures "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 97,
+    "fields": {
+        "drink": 26,
+        "ingredient": 5,
+        "amount": ""
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 98,
+    "fields": {
+        "drink": 26,
+        "ingredient": 6,
+        "amount": ""
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 99,
+    "fields": {
+        "drink": 27,
+        "ingredient": 36,
+        "amount": "2 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 100,
+    "fields": {
+        "drink": 27,
+        "ingredient": 4,
+        "amount": "1 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 101,
+    "fields": {
+        "drink": 27,
+        "ingredient": 17,
+        "amount": "1 tsp superfine "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 102,
+    "fields": {
+        "drink": 27,
+        "ingredient": 61,
+        "amount": "3 oz "
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 103,
+    "fields": {
+        "drink": 27,
+        "ingredient": 39,
+        "amount": "1"
+    }
+}, {
+    "model": "testing_data.amount",
+    "pk": 104,
+    "fields": {
+        "drink": 27,
+        "ingredient": 38,
+        "amount": "1"
+    }
+}]

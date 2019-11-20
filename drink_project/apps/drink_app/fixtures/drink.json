@@ -1,0 +1,217 @@
+[{
+    "model": "drink_app.drink",
+    "pk": 1,
+    "fields": {
+        "name": "Alabama Slammer",
+        "glassType": "Highball glass",
+        "recipe": "Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 2,
+    "fields": {
+        "name": "Amaretto Sunrise",
+        "glassType": "Collins Glass",
+        "recipe": "Mix together the amaretto and orange juice. Pour into glass and then add the grenadine untill you see the sunrise."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 3,
+    "fields": {
+        "name": "Applejack",
+        "glassType": "Cocktail glass",
+        "recipe": "Add all ingredients into mixing glass, chill and strain into cocktail glass"
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 4,
+    "fields": {
+        "name": "B-52",
+        "glassType": "Shot glass",
+        "recipe": "Layer ingredients into a shot glass. Serve with a stirrer."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 5,
+    "fields": {
+        "name": "Banana Daiquiri",
+        "glassType": "Champagne flute",
+        "recipe": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 6,
+    "fields": {
+        "name": "Black & Tan",
+        "glassType": "Pint glass",
+        "recipe": "Fill pint glass half full with Bass. Next pour Guiness over a spoon slowly until glass is full. If done correctly the Guiness will stay on top and the Bass on bottom hence the name Black & Tan."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 7,
+    "fields": {
+        "name": "Bloody Mary",
+        "glassType": "Old-fashioned glass",
+        "recipe": "Stirring gently, pour all ingredients into highball glass. Garnish."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 8,
+    "fields": {
+        "name": "Brandy Alexander",
+        "glassType": "Cocktail glass",
+        "recipe": "Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 9,
+    "fields": {
+        "name": "Cuba Libre",
+        "glassType": "Highball glass",
+        "recipe": "Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 10,
+    "fields": {
+        "name": "Daiquiri",
+        "glassType": "Cocktail glass",
+        "recipe": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 11,
+    "fields": {
+        "name": "Dirty Martini",
+        "glassType": "Cocktail glass",
+        "recipe": "Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.\r\nRub the rim of a martini glass with the wedge of lemon.\r\nStrain the contents of the cocktail shaker into the glass and add the olive.\r\nA dirty Martini contains a splash of olive brine or olive juice and is typically garnished with an olive."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 12,
+    "fields": {
+        "name": "French 75",
+        "glassType": "Collins glass",
+        "recipe": "Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 13,
+    "fields": {
+        "name": "Gin And Tonic",
+        "glassType": "Highball glass",
+        "recipe": "Pour the gin and the tonic water into a highball glass almost filled with ice cubes. Stir well. Garnish with the lime wedge."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 14,
+    "fields": {
+        "name": "Grasshopper",
+        "glassType": "Cocktail glass",
+        "recipe": "Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 15,
+    "fields": {
+        "name": "Harvey Wallbanger",
+        "glassType": "Collins glass",
+        "recipe": "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 16,
+    "fields": {
+        "name": "Lemon Drop",
+        "glassType": "Cocktail glass",
+        "recipe": "Shake and strain into a chilled cocktail glass rimmed with sugar."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 17,
+    "fields": {
+        "name": "Mai Tai",
+        "glassType": "Collins glass",
+        "recipe": "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 18,
+    "fields": {
+        "name": "Manhattan",
+        "glassType": "Cocktail glass",
+        "recipe": "Stirred over ice, strained into a chilled glass, garnished, and served up."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 19,
+    "fields": {
+        "name": "Margarita",
+        "glassType": "Cocktail glass",
+        "recipe": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 20,
+    "fields": {
+        "name": "Mimosa",
+        "glassType": "Champagne flute",
+        "recipe": "Ensure both ingredients are well chilled, then mix into the glass. Serve cold."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 21,
+    "fields": {
+        "name": "Mojito",
+        "glassType": "Highball glass",
+        "recipe": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 22,
+    "fields": {
+        "name": "Moscow Mule",
+        "glassType": "Copper Mug",
+        "recipe": "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 23,
+    "fields": {
+        "name": "Pina Colada",
+        "glassType": "Collins glass",
+        "recipe": "Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 24,
+    "fields": {
+        "name": "Pisco Sour",
+        "glassType": "Cocktail glass",
+        "recipe": "Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 25,
+    "fields": {
+        "name": "Sidecar",
+        "glassType": "Cocktail glass",
+        "recipe": "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 26,
+    "fields": {
+        "name": "Tequila Sunrise",
+        "glassType": "Highball glass",
+        "recipe": "Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve."
+    }
+}, {
+    "model": "drink_app.drink",
+    "pk": 27,
+    "fields": {
+        "name": "Tom Collins",
+        "glassType": "Collins glass",
+        "recipe": "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice."
+    }
+}]
