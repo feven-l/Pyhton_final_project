@@ -11,6 +11,6 @@ def infopage(request):
 	# u = User.objects.get(id=request.session["userid"])
     
     context = {
-        "drinks" : Drink.objects.all(),
+        "drinks" : Amount.objects.drinkn(),
     }
     return render(request, 'drink_app/drink.html',context)
