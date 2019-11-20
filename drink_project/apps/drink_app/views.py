@@ -6,3 +6,6 @@ def index(request):
 
 def infopage(request):
     return render(request, 'drink_app/drink.html')
+
+def orderpage(request):
+    return render(request, 'drink_app/order.html')

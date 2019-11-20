@@ -9,30 +9,30 @@
     <title>Login & Registration</title>
 </head>
 <body style=" background-image: url('static/img/blur copy.jpg'); background-size: cover;" class="p-3 mb-2">
-    <img class="mr-5" src="{% static 'img/side.png' %}" alt="sidepic">
     <div style="overflow: hidden;" class="w-50 rounded d-inline-block">
             <h1 style="color: whitesmoke; margin-top: 200px;" class="text-center">Welcome! Let's get started</h1>  
             {% if messages %}
             <ul class="messages">    
-                {% for message in messages %}    
-                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
-                {% endfor %}
+                {% for message in messages %}    
+                <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+                {% endfor %}
             </ul>
             {% endif %}
-        <div class="m-auto login col-md-5"> 
-            <h3  style="color: whitesmoke" class='mb-4'>Login</h3>
-            <form class='form-horizontal' action="/log_process" method="post">
-                {% csrf_token %}
-                <label  style="color: whitesmoke" for="email">Email</label>
-                <input class="form-control" type="email" name="email" id="email">
-                <label  style="color: whitesmoke" for="password">Password</label>
-                <input class="form-control" type="password" name="password">
-                <button class="btn btn-light btn-block mt-4 mb-5" type="submit">Log In</button>
-            </form>
-            <a class='text-light mr-4' href="{% url 'register' %}"> Register</a>
-            <a class='text-light' href="{% url 'main' %}"> Home</a>
+            <div class="m-auto login col-md-5"> 
+                <h3  style="color: whitesmoke" class='mb-4'>Login</h3>
+                <form class='form-horizontal' action="/log_process" method="post">
+                    {% csrf_token %}
+                    <label  style="color: whitesmoke" for="email">Email</label>
+                    <input class="form-control" type="email" name="email" id="email">
+                    <label  style="color: whitesmoke" for="password">Password</label>
+                    <input class="form-control" type="password" name="password">
+                    <button class="btn btn-light btn-block mt-4 mb-5" type="submit">Log In</button>
+                </form>
+                <a class='text-light mr-4' href="{% url 'register' %}"> Register</a>
+                <a class='text-light' href="{% url 'main' %}"> Home</a>
+            </div>
         </div>
-    </div>
+        <img class="mr-5" src="{% static 'img/smside.png' %}" alt="sidepic">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
