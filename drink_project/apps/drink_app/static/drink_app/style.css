@@ -81,3 +81,15 @@ img{
     height: 300px;
     outline: 1px solid black;
 }
+.confirm{
+    background-color: transparent;
+    width:50%;
+    margin-left: 350px;
+}
+    .confirm button{
+        margin-left: 125px;
+        padding:5px;
+        padding-left: 5px;
+        color:white;
+        background-color: rgb(16, 162, 247)
+    }
