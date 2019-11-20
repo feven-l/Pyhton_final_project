@@ -24,7 +24,7 @@ for drink in complete_list:
     for ingredient in drink['ingredients']:
         amount=ingredient['amount']
         amount_dict = {
-            'model': "apps.amount",
+            'model': "testing_data.amount",
             'pk': amount_id,
             "fields":{
                 "drink": drink_dictionary[drink['name']],

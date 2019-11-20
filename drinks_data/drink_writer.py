@@ -10,7 +10,7 @@ def prepare_output():
     output_list = []
     for drink in drink_list:
         drink_dictionary = {
-        "model": "apps.drink",
+        "model": "testing_data.drink",
         "pk": id,
         "fields": {
             "name": drink['name'],

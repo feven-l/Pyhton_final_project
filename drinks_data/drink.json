@@ -1,5 +1,5 @@
 [{
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 1,
     "fields": {
         "name": "Alabama Slammer",
@@ -7,7 +7,7 @@
         "instructions": "Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 2,
     "fields": {
         "name": "Amaretto Sunrise",
@@ -15,7 +15,7 @@
         "instructions": "Mix together the amaretto and orange juice. Pour into glass and then add the grenadine untill you see the sunrise."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 3,
     "fields": {
         "name": "Applejack",
@@ -23,7 +23,7 @@
         "instructions": "Add all ingredients into mixing glass, chill and strain into cocktail glass"
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 4,
     "fields": {
         "name": "B-52",
@@ -31,7 +31,7 @@
         "instructions": "Layer ingredients into a shot glass. Serve with a stirrer."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 5,
     "fields": {
         "name": "Banana Daiquiri",
@@ -39,7 +39,7 @@
         "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 6,
     "fields": {
         "name": "Black & Tan",
@@ -47,7 +47,7 @@
         "instructions": "Fill pint glass half full with Bass. Next pour Guiness over a spoon slowly until glass is full. If done correctly the Guiness will stay on top and the Bass on bottom hence the name Black & Tan."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 7,
     "fields": {
         "name": "Bloody Mary",
@@ -55,7 +55,7 @@
         "instructions": "Stirring gently, pour all ingredients into highball glass. Garnish."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 8,
     "fields": {
         "name": "Brandy Alexander",
@@ -63,7 +63,7 @@
         "instructions": "Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 9,
     "fields": {
         "name": "Cuba Libre",
@@ -71,7 +71,7 @@
         "instructions": "Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 10,
     "fields": {
         "name": "Daiquiri",
@@ -79,7 +79,7 @@
         "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 11,
     "fields": {
         "name": "Dirty Martini",
@@ -87,7 +87,7 @@
         "instructions": "Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.\r\nRub the rim of a martini glass with the wedge of lemon.\r\nStrain the contents of the cocktail shaker into the glass and add the olive.\r\nA dirty Martini contains a splash of olive brine or olive juice and is typically garnished with an olive."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 12,
     "fields": {
         "name": "French 75",
@@ -95,7 +95,7 @@
         "instructions": "Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 13,
     "fields": {
         "name": "Gin And Tonic",
@@ -103,7 +103,7 @@
         "instructions": "Pour the gin and the tonic water into a highball glass almost filled with ice cubes. Stir well. Garnish with the lime wedge."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 14,
     "fields": {
         "name": "Grasshopper",
@@ -111,7 +111,7 @@
         "instructions": "Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 15,
     "fields": {
         "name": "Harvey Wallbanger",
@@ -119,7 +119,7 @@
         "instructions": "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 16,
     "fields": {
         "name": "Lemon Drop",
@@ -127,7 +127,7 @@
         "instructions": "Shake and strain into a chilled cocktail glass rimmed with sugar."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 17,
     "fields": {
         "name": "Mai Tai",
@@ -135,7 +135,7 @@
         "instructions": "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 18,
     "fields": {
         "name": "Manhattan",
@@ -143,7 +143,7 @@
         "instructions": "Stirred over ice, strained into a chilled glass, garnished, and served up."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 19,
     "fields": {
         "name": "Margarita",
@@ -151,7 +151,7 @@
         "instructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 20,
     "fields": {
         "name": "Mimosa",
@@ -159,7 +159,7 @@
         "instructions": "Ensure both ingredients are well chilled, then mix into the glass. Serve cold."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 21,
     "fields": {
         "name": "Mojito",
@@ -167,7 +167,7 @@
         "instructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 22,
     "fields": {
         "name": "Moscow Mule",
@@ -175,7 +175,7 @@
         "instructions": "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 23,
     "fields": {
         "name": "Pina Colada",
@@ -183,7 +183,7 @@
         "instructions": "Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 24,
     "fields": {
         "name": "Pisco Sour",
@@ -191,7 +191,7 @@
         "instructions": "Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 25,
     "fields": {
         "name": "Sidecar",
@@ -199,7 +199,7 @@
         "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 26,
     "fields": {
         "name": "Tequila Sunrise",
@@ -207,7 +207,7 @@
         "instructions": "Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve."
     }
 }, {
-    "model": "apps.drink",
+    "model": "testing_data.drink",
     "pk": 27,
     "fields": {
         "name": "Tom Collins",
