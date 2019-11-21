@@ -66,6 +66,7 @@ img{
     outline: 1px solid black;
     vertical-align: top;
     margin-left: 200px;
+    color: #a0a0a0;
 }
 .recipes{
     width: 455px;
@@ -76,8 +77,10 @@ img{
     height: 50%;
     width: 30%;
     outline: 1px solid black;
+    color: #a0a0a0;
 }
 .B{
     height: 300px;
     outline: 1px solid black;
+    color: #a0a0a0;
 }
