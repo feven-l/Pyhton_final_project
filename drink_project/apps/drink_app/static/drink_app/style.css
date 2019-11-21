@@ -9,11 +9,15 @@
     color: white;
 }
 .navbar h1{
-    color:where;
+    color:rgb(212, 204, 204);
     font-family: Verdana;
-    font-style: italic;
+    font-style: oblique;
     font-weight:normal;
 
+}
+.navbar h1 img{
+    width:100px;
+    height:100px;
 }
 body{
     background-color: whitesmoke;
