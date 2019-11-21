@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from apps.login_app.models import User, UserManager
 from .models import Ing, Drink, Amount
+import random
 
 # Create your views here.
 def index(request):
@@ -17,5 +18,10 @@ def index(request):
 def infopage(request):
     return render(request, 'drink_app/drink.html')
 
-def favorite(request):
-    return render(request, 'drink_app/order.html')
+def suggest(request):
+    drinks = Drink.objects.all()
+    random_item = random.choice(drinks)
+    context={
+        'drink':random_item
+    }
+    return render(request, 'drink_app/suggest.html', context)

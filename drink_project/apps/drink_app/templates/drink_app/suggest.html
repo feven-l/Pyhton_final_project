@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'drink_app/style.css' %}">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="static/drink_app/js/script.js"></script>
+    
+</head>
+<body class="mb-2">
+    <div class="wrapper container-fluid w-auto " >
+        <div class="side_bar mr-5 side_nav">
+                <a href="#">Navigation</a>
+                <a href="#">My Favorites</a>
+                <a href="#">All Drinks</a>
+                <a href="#">Drink Roulette</a>
+                <a class="mb-5" href="#">Order Here</a>
+                {% if 'userid' not in request.session%}
+                    <a id="sml-font" class="display-4 d-inline mt-3" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline mt-3" href="{% url 'register' %}">Register</a>
+                {% else %}
+                    <a id="sml-font" class="display-4 d-inline mt-3" href="{% url 'logout' %}">Log out</a>
+                {% endif %}
+        </div>
+        <h1 class="whiteish">Drink Roulette</h1>
+        <div class="whiteish suggest">
+                {{drink.name}}
+        <button id="toggler">Play</button>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

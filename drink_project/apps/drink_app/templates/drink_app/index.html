@@ -21,10 +21,10 @@
             </form>
         </div>
         <div class="side_bar mr-5 side_nav">
-            <a href="#">Navigation</a>
+            <a id="nolink">Navigation</a>
             <a href="#">My Favorites</a>
             <a href="#">All Drinks</a>
-            <a href="#">Drink Roulette</a>
+            <a href="{% url 'suggest' %}">Drink Roulette</a>
             <a href="https://www.instacart.com/alcohol">Order Here</a><br><br><br><br><br>
             {% if 'userid' not in request.session%}
               <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>

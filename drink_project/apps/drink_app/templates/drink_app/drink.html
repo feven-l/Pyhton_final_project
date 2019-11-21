@@ -17,6 +17,11 @@
             <a href="#">All Drinks</a>
             <a href="#">Drink Roulette</a>
             <a href="#">Order Here</a>
+            {% if 'userid' not in request.session%}
+              <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>
+            {% else %}
+            <a id="sml-font" class="display-4 d-inline" href="{% url 'logout' %}">Log out</a>
+            {% endif %}
     </div>
     <div class="drinks">
             <h1>DRINKS</h1>

@@ -11,7 +11,7 @@
 body{
     background-color: whitesmoke;
     background-image: url("../drink_app/images/blur.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 /* SIDE NAVIGATION BAR */
 .side_nav {
@@ -29,6 +29,9 @@ body{
 }
 #sml-font{
     font-size: 20px;
+}
+#nolink{
+    color: #a0a0a0;
 }
 .side_nav a {
     padding: 8px 8px 8px 32px;
@@ -80,4 +83,16 @@ img{
 .B{
     height: 300px;
     outline: 1px solid black;
+}
+/* DRINK SUGGESTOR  */
+.suggest{
+    margin: 200px;
+    width: 30%;
+    height: 200px;
+}
+
+/* GLOBAL CLASS */
+.whiteish{
+    color: whitesmoke;
+    margin-left: 199px;
 }
