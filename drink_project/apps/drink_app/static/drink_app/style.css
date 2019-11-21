@@ -8,6 +8,13 @@
 .logo{
     color: white;
 }
+.navbar h1{
+    color:where;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight:normal;
+
+}
 body{
     background-color: whitesmoke;
     background-image: url("../drink_app/images/blur.jpg");
@@ -88,8 +95,9 @@ img{
 }
     .confirm button{
         margin-left: 125px;
-        padding:5px;
-        padding-left: 5px;
+        margin-bottom: 5px;
+        padding:10px;
+        border-radius: 20px;
         color:white;
         background-color: rgb(16, 162, 247)
     }
