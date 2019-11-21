@@ -77,6 +77,7 @@ img{
     outline: 1px solid black;
     vertical-align: top;
     margin-left: 200px;
+    color: #a0a0a0;
 }
 .recipes{
     width: 455px;
@@ -87,10 +88,15 @@ img{
     height: 50%;
     width: 30%;
     outline: 1px solid black;
+    color: #a0a0a0;
 }
 .B{
     height: 300px;
     outline: 1px solid black;
+<<<<<<< HEAD
+    color: #a0a0a0;
+}
+=======
 }
 .confirm{
     background-color: transparent;
@@ -105,3 +111,4 @@ img{
         color:white;
         background-color: rgb(16, 162, 247)
     }
+>>>>>>> 2fd75ea971206e5485b787fa4cf179ede6e16207
