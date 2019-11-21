@@ -14,7 +14,7 @@
     <div class="wrapper container-fluid w-auto " >
         <div class="navbar sticky-top navbar-warning p-3 rounded">
             <h1 class="logo">5'Oclock Somewhere</h1>
-            <a class=" navbar-brand display-1">Welcome</a>
+            <a class=" navbar-brand display-1">Welcome {{user.first_name}}</a>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
@@ -25,9 +25,13 @@
             <a href="#">My Favorites</a>
             <a href="#">All Drinks</a>
             <a href="#">Drink Roulette</a>
-            <a href="#">Order Here</a><br><br><br><br><br>
-            <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>
-        </div>
+            <a href="https://www.instacart.com/alcohol">Order Here</a><br><br><br><br><br>
+            {% if 'userid' not in request.session%}
+              <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>
+            {% else %}
+            <a id="sml-font" class="display-4 d-inline" href="{% url 'logout' %}">Log out</a>
+            {% endif %}
+          </div>
         <div class="maincont d-inline-block p-4 rounded">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner w-20 rounded">
