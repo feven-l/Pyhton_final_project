@@ -8,6 +8,17 @@
 .logo{
     color: white;
 }
+.navbar h1{
+    color:rgb(212, 204, 204);
+    font-family: Verdana;
+    font-style: oblique;
+    font-weight:normal;
+
+}
+.navbar h1 img{
+    width:100px;
+    height:100px;
+}
 body{
     background-color: whitesmoke;
     background-image: url("../drink_app/images/blur.jpg");
@@ -69,6 +80,7 @@ img{
     outline: 1px solid black;
     vertical-align: top;
     margin-left: 200px;
+    color: #a0a0a0;
 }
 .recipes{
     width: 455px;
@@ -79,10 +91,12 @@ img{
     height: 50%;
     width: 30%;
     outline: 1px solid black;
+    color: #a0a0a0;
 }
 .B{
     height: 300px;
     outline: 1px solid black;
+<<<<<<< HEAD
 }
 /* DRINK SUGGESTOR  */
 .suggest{
@@ -96,3 +110,24 @@ img{
     color: whitesmoke;
     margin-left: 199px;
 }
+=======
+<<<<<<< HEAD
+    color: #a0a0a0;
+}
+=======
+}
+.confirm{
+    background-color: transparent;
+    width:50%;
+    margin-left: 350px;
+}
+    .confirm button{
+        margin-left: 125px;
+        margin-bottom: 5px;
+        padding:10px;
+        border-radius: 20px;
+        color:white;
+        background-color: rgb(16, 162, 247)
+    }
+>>>>>>> 2fd75ea971206e5485b787fa4cf179ede6e16207
+>>>>>>> d04804fbcf1166e63a41d60a1bf9cd6162a4d3d3
