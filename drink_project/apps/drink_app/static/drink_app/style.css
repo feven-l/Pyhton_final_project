@@ -1,10 +1,11 @@
 /* WELCOME & SEARCH BAR */
 .navbar {
     width: 87%;
-    margin-left: 197px;
+    margin-left: 191px;
     color: whitesmoke;
 }
 
+<<<<<<< HEAD
 .logo {
     color: white;
 }
@@ -13,6 +14,28 @@ body {
     background-color: rgb(255, 255, 255);
     background-image: url("../drink_app/images/blur_2.jpg");
     background-size: auto;
+=======
+.navbar h1{
+    color:rgb(212, 204, 204);
+    font-family: Verdana;
+    font-style: oblique;
+    font-weight:normal;
+
+}
+.logo{
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
+}
+.navbar h1 img{
+    width:100px;
+    height:100px;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url("../drink_app/images/blur.jpg");
+    background-size: cover;
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
 }
 
 /* SIDE NAVIGATION BAR */
@@ -29,19 +52,32 @@ body {
     left: 0;
     background-color: rgba(35, 33, 34, 0.85);
     background-size: cover;
+<<<<<<< HEAD
     overflow-x: hidden;
     /* Disable horizontal scroll */
     padding-top: 110px;
     /* Place content 60px from the top */
     transition: 0.5s;
     /* 0.5 second transition effect to slide in the sidenav */
+=======
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 130px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
 }
 
 #sml-font {
     font-size: 20px;
 }
+<<<<<<< HEAD
 
 .side_nav a {
+=======
+#nolink{
+    color: #a0a0a0;
+}
+.side_nav a, .alllist a{
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -65,9 +101,9 @@ body {
 
 img {
     background-size: cover;
-    padding: 4px;
-    width: 50%;
-    height: auto;
+    padding: 5px;
+    width: auto;
+    height: 340px;
     margin: auto;
     -webkit-filter: drop-shadow(10px 10px 10px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -79,6 +115,7 @@ img {
     display: inline-block;
     width: 600px;
     height: 600px;
+<<<<<<< HEAD
 
     vertical-align: top;
     margin-left: 250px;
@@ -86,16 +123,73 @@ img {
 }
 
 .recipes {
+=======
+    vertical-align: top;
+    margin-left: 200px;
+    color: #a0a0a0;
+}
+.recipe{
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
     width: 455px;
     height: 600px;
     display: inline-block;
 }
+<<<<<<< HEAD
 
 .L {
     height: 50%;
+=======
+/* DRINK SUGGESTOR  */
+.suggest{
+    margin: 200px;
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
     width: 30%;
-    outline: 1px solid black;
+    height: 200px;
 }
+
+/* GLOBAL CLASS */
+.whiteish{
+    color: whitesmoke;
+    margin-left: 219px;
+}
+.confirm{
+    background-color: transparent;
+    width:50%;
+    margin-left: 350px;
+}
+.confirm button{
+    margin-left: 125px;
+    margin-bottom: 5px;
+    padding:10px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(16, 162, 247)
+}
+#olcolor{
+    color: whitesmoke;
+    
+}
+#olcolor a:hover {
+    color: #22b4ce;
+}
+.infopic{
+    width: 300px;
+    height: auto;
+}
+.infodrink{
+
+    margin-left: 230px;
+    height: 600px;
+    width: 300px;
+}
+#infoname{
+    font-size: 60px;
+    color: whitesmoke;
+}
+.infowrapper{
+    height: auto;
+}
+<<<<<<< HEAD
 
 .B {
     height: 300px;
@@ -117,4 +211,8 @@ img {
 
 .all-drinks li a {
     color: black;
+=======
+#response_html{
+    margin-left: 500px;
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
 }

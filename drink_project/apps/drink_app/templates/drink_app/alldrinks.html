@@ -8,42 +8,33 @@
     <title>Document</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'drink_app/style.css' %}">
-    
 </head>
 <body>
-    <div class="infowrapper">
-        <div class="side_bar mr-5 side_nav">
+    <div class="wrapper">
+        <div class="side_bar side_nav">
                 <a href="{% url 'main' %}">Home</a>
                 <a href="#">My Favorites</a>
                 <a href="{% url 'alldrinks' %}">All Drinks</a>
                 <a href="{% url 'suggest' %}">Drink Roulette</a>
                 <a href="https://www.instacart.com/alcohol">Order Here</a><br><br><br><br><br>
                 {% if 'userid' not in request.session%}
-                    <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>
+                  <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>
                 {% else %}
                 <a id="sml-font" class="display-4 d-inline" href="{% url 'logout' %}">Log out</a>
                 {% endif %}
         </div>
-
-        <h1 class="whiteish">{{drinks.name}}</h1>
-        <div class="infodrink d-inline-block">
-                <img class="infopic" src="{% static 'drink_app/images/'|add:drinks.glassType|add:'.png' %}" alt="First slide">
-        </div>
-        <div id="olcolor" class="recipe d-inline-block">
-            <h1>Recipes</h1>
-            <ul>
-                <li>{{drinks.recipe}} </li>
-            </ul>
-        </div>
-        <div id="olcolor" class="d-inline-block">
-            <!-- <h1>Ingredients</h1> -->
-            {%for ing in ings%}
-            {{ing.ing.name}}
+        <h1 class="whiteish">All Drinks</h1>
+        <div class="maincont" style="overflow: auto; background-color: rgba(20, 19, 19, 0.5); border-radius: 5px;">
+        <ol id="olcolor">
+            {% for drink in drinks%}
+            <li class="alllist"><a id="olcolor" href="/infopage/{{drink.id}}">{{drink.name}}</a></li>
+            
             {% endfor %}
+        </ol>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
 </body>
 </html>

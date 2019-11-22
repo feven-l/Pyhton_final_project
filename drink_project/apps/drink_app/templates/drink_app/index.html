@@ -16,6 +16,7 @@
   </head>
 
   <body class="mb-2">
+<<<<<<< HEAD
     <div class="wrapper container-fluid w-auto ">
       <div class="navbar sticky-top navbar-warning p-3 rounded">
         <h1 class="logo">5 o'Clock Somewhere</h1>
@@ -95,6 +96,56 @@
           </a>
         </div>
       </div>
+=======
+    <div class="wrapper container-fluid" >
+        <div class="navbar sticky-top navbar-warning p-3 mb-5 rounded">
+          <h1 class="logo">5 O'Clock Somewhere</h1>
+          <a class=" navbar-brand display-1">Welcome {{user.first_name}}</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="side_bar mr-3 side_nav">
+            <a href="{% url 'main' %}">Home</a>
+            <a href="#">My Favorites</a>
+            <a href="{% url 'alldrinks' %}">All Drinks</a>
+            <a href="{% url 'suggest' %}">Drink Roulette</a>
+            <a href="https://www.instacart.com/alcohol">Order Here</a><br><br><br><br><br>
+            {% if 'userid' not in request.session%}
+              <a id="sml-font" class="display-4 d-inline" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline" href="{% url 'register' %}">Register</a>
+            {% else %}
+            <a id="sml-font" class="display-4 d-inline" href="{% url 'logout' %}">Log out</a>
+            {% endif %}
+          </div>
+        <div class="maincont d-inline-block rounded ">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner w-30">
+                          <div class="carousel-item active">
+                            <img class="d-block w-50 h-auto" src="{% static 'drink_app/images/wis.png' %}" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-50 h-auto" src="{% static 'drink_app/images/wisk.png' %}" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-50 h-auto" src="{% static 'drink_app/images/oran.png' %}" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+        </div>
+        <div class= "confirm">
+            <h1>A Concoction Connoisseur?</h1>
+            <button>Click here to confirm that you're over 21 years of age <input type="checkbox"></button>
+          </div>
+>>>>>>> d23e6a5aa2c5d24b7f1ccdbc1d80f73f90741f45
     </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
