@@ -15,10 +15,10 @@
 <body class="mb-2">
     <div class="wrapper container-fluid w-auto " >
         <div class="side_bar mr-5 side_nav">
-                <a href="#">Navigation</a>
+                <a href="{% url 'main' %}">Home</a>
                 <a href="#">My Favorites</a>
-                <a href="#">All Drinks</a>
-                <a href="#">Drink Roulette</a>
+                <a href="{% url 'alldrinks' %}">All Drinks</a>
+                <a href="{% url 'suggest' %}">Drink Roulette</a>
                 <a class="mb-5" href="#">Order Here</a>
                 {% if 'userid' not in request.session%}
                     <a id="sml-font" class="display-4 d-inline mt-3" href="{% url 'login' %}">Log In</a><a id="sml-font" class="display-4 d-inline mt-3" href="{% url 'register' %}">Register</a>
@@ -27,11 +27,18 @@
                 {% endif %}
         </div>
         <h1 class="whiteish">Drink Roulette</h1>
-        <div class="whiteish suggest">
-                {{drink.name}}
-        <button id="toggler">Play</button>
+        <div id="response_html" class="whiteish">
+                <h2>{{drink.name}}</h2>
+                <div class="infodrink">
+                    <img class="infopic" src="{% static 'drink_app/images/'|add:drink.glassType|add:'.png' %}" alt="First slide">
+                    <form action="/suggest" method="get">
+                        <button class="text-center btn btn-primary" id="toggler">Play</button>
+                    </form>
         </div>
-
+        </div>
+        <div class="maincont">
+               
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

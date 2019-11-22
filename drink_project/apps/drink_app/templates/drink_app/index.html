@@ -11,24 +11,19 @@
   </head>
   
   <body class="mb-2">
-    <div class="wrapper container-fluid w-auto " >
-        <div class="navbar sticky-top navbar-warning p-3 rounded">
-<<<<<<< HEAD
-            <h1 class="logo">5'Oclock Somewhere</h1>
-            <a class=" navbar-brand display-1">Welcome {{user.first_name}}</a>
-=======
-            <h1 class="logo"><img src="{% static 'drink_app/images/5_clock.JPG' %}">5 O'Clock Somewhere</h1>
-            <a class=" navbar-brand display-1">Welcome</a>
->>>>>>> d04804fbcf1166e63a41d60a1bf9cd6162a4d3d3
+    <div class="wrapper container-fluid" >
+        <div class="navbar sticky-top navbar-warning p-3 mb-5 rounded">
+          <h1 class="logo">5 O'Clock Somewhere</h1>
+          <a class=" navbar-brand display-1">Welcome {{user.first_name}}</a>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
-        <div class="side_bar mr-5 side_nav">
-            <a id="nolink">Navigation</a>
+        <div class="side_bar mr-3 side_nav">
+            <a href="{% url 'main' %}">Home</a>
             <a href="#">My Favorites</a>
-            <a href="#">All Drinks</a>
+            <a href="{% url 'alldrinks' %}">All Drinks</a>
             <a href="{% url 'suggest' %}">Drink Roulette</a>
             <a href="https://www.instacart.com/alcohol">Order Here</a><br><br><br><br><br>
             {% if 'userid' not in request.session%}
@@ -37,9 +32,9 @@
             <a id="sml-font" class="display-4 d-inline" href="{% url 'logout' %}">Log out</a>
             {% endif %}
           </div>
-        <div class="maincont d-inline-block p-4 rounded">
+        <div class="maincont d-inline-block rounded ">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner w-20 rounded">
+                        <div class="carousel-inner w-30">
                           <div class="carousel-item active">
                             <img class="d-block w-50 h-auto" src="{% static 'drink_app/images/wis.png' %}" alt="First slide">
                           </div>

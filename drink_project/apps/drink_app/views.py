@@ -15,8 +15,12 @@ def index(request):
         return render(request, 'drink_app/index.html', context)
 
 
-def infopage(request):
-    return render(request, 'drink_app/drink.html')
+def infopage(request, id):
+    current_id = id
+    context={
+        'drinks': Drink.objects.get(id=current_id)
+    }
+    return render(request, 'drink_app/drink.html', context)
 
 def suggest(request):
     drinks = Drink.objects.all()
@@ -25,3 +29,9 @@ def suggest(request):
         'drink':random_item
     }
     return render(request, 'drink_app/suggest.html', context)
+
+def alldrinks(request):
+    context = {
+        'drinks': Drink.objects.all()
+    }
+    return render(request, 'drink_app/alldrinks.html', context)

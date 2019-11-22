@@ -2,18 +2,21 @@
 /* WELCOME & SEARCH BAR */
 .navbar{
     width: 87%;
-    margin-left: 197px;
+    margin-left: 191px;
     color: whitesmoke;
 }
-.logo{
-    color: white;
-}
+
 .navbar h1{
     color:rgb(212, 204, 204);
     font-family: Verdana;
     font-style: oblique;
     font-weight:normal;
 
+}
+.logo{
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
 }
 .navbar h1 img{
     width:100px;
@@ -35,7 +38,7 @@ body{
     background-color: rgba(35, 33, 34, 0.5);
     background-size: cover;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 110px; /* Place content 60px from the top */
+    padding-top: 130px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 #sml-font{
@@ -44,7 +47,7 @@ body{
 #nolink{
     color: #a0a0a0;
 }
-.side_nav a {
+.side_nav a, .alllist a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -64,9 +67,9 @@ body{
 }
 img{
     background-size: cover;
-    padding: 4px;
-    width: 50%;
-    height: auto;
+    padding: 5px;
+    width: auto;
+    height: 340px;
     margin: auto;
     -webkit-filter: drop-shadow(10px 10px 10px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -77,26 +80,14 @@ img{
     display: inline-block;
     width: 600px;
     height: 600px;
-    outline: 1px solid black;
     vertical-align: top;
     margin-left: 200px;
     color: #a0a0a0;
 }
-.recipes{
+.recipe{
     width: 455px;
     height: 600px;
     display: inline-block;
-}
-.L{
-    height: 50%;
-    width: 30%;
-    outline: 1px solid black;
-    color: #a0a0a0;
-}
-.B{
-    height: 300px;
-    outline: 1px solid black;
-<<<<<<< HEAD
 }
 /* DRINK SUGGESTOR  */
 .suggest{
@@ -108,26 +99,45 @@ img{
 /* GLOBAL CLASS */
 .whiteish{
     color: whitesmoke;
-    margin-left: 199px;
-}
-=======
-<<<<<<< HEAD
-    color: #a0a0a0;
-}
-=======
+    margin-left: 219px;
 }
 .confirm{
     background-color: transparent;
     width:50%;
     margin-left: 350px;
 }
-    .confirm button{
-        margin-left: 125px;
-        margin-bottom: 5px;
-        padding:10px;
-        border-radius: 20px;
-        color:white;
-        background-color: rgb(16, 162, 247)
-    }
->>>>>>> 2fd75ea971206e5485b787fa4cf179ede6e16207
->>>>>>> d04804fbcf1166e63a41d60a1bf9cd6162a4d3d3
+.confirm button{
+    margin-left: 125px;
+    margin-bottom: 5px;
+    padding:10px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(16, 162, 247)
+}
+#olcolor{
+    color: whitesmoke;
+    
+}
+#olcolor a:hover {
+    color: #22b4ce;
+}
+.infopic{
+    width: 300px;
+    height: auto;
+}
+.infodrink{
+
+    margin-left: 230px;
+    height: 600px;
+    width: 300px;
+}
+#infoname{
+    font-size: 60px;
+    color: whitesmoke;
+}
+.infowrapper{
+    height: auto;
+}
+#response_html{
+    margin-left: 500px;
+}

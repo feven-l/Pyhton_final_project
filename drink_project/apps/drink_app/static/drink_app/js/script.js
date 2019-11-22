@@ -1,4 +1,11 @@
 $(document).ready(function(){
-    var flip = documen.getelementById
-    alert('hello')
+    $('#carouselslide').carousel({
+        interval: 50,
+  
+    });
 })
+
+        // $('form').submit(function(e){
+        //     e.preventDefault();
+        //     console.log('bloddy marry');
+        // });
